@@ -7,36 +7,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        fontFamily: {
-          'sans': 'Outfit, sans-serif'
-        },
-        extend: {
-          colors: {
-            'light-gray': 'hsl(212, 45%, 89%)',
-            'grayish-blue': 'hsl(220, 15%, 55%)',
-            'dark-blue': 'hsl(218, 44%, 22%)',
-          }
-        }
-      }
-    }
-  </script>
+  <link href="style.css" rel="stylesheet">
   <title>Frontend Mentor | QR code component</title>
 </head>
 <body>
   <!-- background container -->
-  <div class="flex items-center justify-center h-screen bg-light-gray">
+  <div class="flex items-center justify-center min-h-screen bg-light-gray">
     <!-- card container -->
-    <div class="bg-white rounded-2xl p-4 mx-6 max-w-xs">
-      <img class="object-cover rounded-2xl" src="images/image-qr-code.png" alt="qr code"/>
-      <div class="text-center">
-        <h1 class="mt-6 px-2 text-2xl leading-tight text-dark-blue font-bold">
+    <div class="w-mobile mx-6 p-4 pb-10 bg-white rounded-2xl">
+      <img class="rounded-2xl" src="images/image-qr-code.png" alt=""/>
+      <div class="px-6 text-center">
+        <h1 class="mt-6 font-bold text-xl leading-tight text-dark-blue">
           Improve your front-end skills by building projects
         </h1>
-        <p class="mt-4 mb-6 px-2 text-[0.9375rem] text-grayish-blue">
+        <p class="mt-4 text-[15px] leading-tight text-grayish-blue">
           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
         </p>
       </div>
