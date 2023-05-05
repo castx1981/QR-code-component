@@ -7,9 +7,9 @@ module.exports = {
         'sans': ['Outfit', 'sans-serif'],
       },
       colors: {
-        'light-gray': 'hsl(212, 45%, 89%)',
-        'grayish-blue': 'hsl(220, 15%, 55%)',
-        'dark-blue': 'hsl(218, 44%, 22%)',
+        'lightGrey': 'hsl(211, 45%, 89%)',
+        'grey': 'hsl(219, 15%, 55%)',
+        'darkNavy': 'hsl(217, 44%, 22%)',
       },
     },
   },
